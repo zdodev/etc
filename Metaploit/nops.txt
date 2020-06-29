@@ -1,0 +1,15 @@
+NOP Generators
+==============
+
+   Name             Disclosure Date  Rank    Description
+   ----             ---------------  ----    -----------
+   aarch64/simple                    normal  Simple
+   armle/simple                      normal  Simple
+   mipsbe/better                     normal  Better
+   php/generic                       normal  PHP Nop Generator
+   ppc/simple                        normal  Simple
+   sparc/random                      normal  SPARC NOP Generator
+   tty/generic                       normal  TTY Nop Generator
+   x64/simple                        normal  Simple
+   x86/opty2                         normal  Opty2
+   x86/single_byte                   normal  Single Byte

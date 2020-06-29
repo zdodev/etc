@@ -1,0 +1,306 @@
+Post
+====
+
+   Name                                               Disclosure Date  Rank       Description
+   ----                                               ---------------  ----       -----------
+   aix/hashdump                                                        normal     AIX Gather Dump Password Hashes
+   android/capture/screen                                              normal     Android Screen Capture
+   android/manage/remove_lock                         2013-10-11       normal     Android Settings Remove Device Locks (4.0-4.3)
+   android/manage/remove_lock_root                                     normal     Android Root Remove Device Locks (root)
+   cisco/gather/enum_cisco                                             normal     Cisco Gather Device General Information
+   firefox/gather/cookies                             2014-03-26       normal     Firefox Gather Cookies from Privileged Javascript Shell
+   firefox/gather/history                             2014-04-11       normal     Firefox Gather History from Privileged Javascript Shell
+   firefox/gather/passwords                           2014-04-11       normal     Firefox Gather Passwords from Privileged Javascript Shell
+   firefox/gather/xss                                                  normal     Firefox XSS
+   firefox/manage/webcam_chat                         2014-05-13       normal     Firefox Webcam Chat on Privileged Javascript Shell
+   hardware/automotive/canprobe                                        normal     Module to Probe Different Data Points in a CAN Packet
+   hardware/automotive/getvinfo                                        normal     Get the Vehicle Information Such as the VIN from the Target Module
+   hardware/automotive/identifymodules                                 normal     Scan CAN Bus for Diagnostic Modules
+   hardware/automotive/malibu_overheat                                 normal     Sample Module to Flood Temp Gauge on 2006 Malibu
+   hardware/automotive/pdt                                             normal     Check For and Prep the Pyrotechnic Devices (Airbags, Battery Clamps, etc.)
+   hardware/rftransceiver/rfpwnon                                      normal     Brute Force AM/OOK (ie: Garage Doors)
+   hardware/rftransceiver/transmitter                                  normal     RF Transceiver Transmitter
+   hardware/zigbee/zstumbler                                           normal     Sends Beacons to Scan for Active ZigBee Networks
+   linux/busybox/enum_connections                                      normal     BusyBox Enumerate Connections
+   linux/busybox/enum_hosts                                            normal     BusyBox Enumerate Host Names
+   linux/busybox/jailbreak                                             normal     BusyBox Jailbreak 
+   linux/busybox/ping_net                                              normal     BusyBox Ping Network Enumeration
+   linux/busybox/set_dmz                                               normal     BusyBox DMZ Configuration
+   linux/busybox/set_dns                                               normal     BusyBox DNS Configuration
+   linux/busybox/smb_share_root                                        normal     BusyBox SMB Sharing
+   linux/busybox/wget_exec                                             normal     BusyBox Download and Execute
+   linux/dos/xen_420_dos                                               normal     Linux DoS Xen 4.2.0 2012-5525
+   linux/gather/checkcontainer                                         normal     Linux Gather Container Detection
+   linux/gather/checkvm                                                normal     Linux Gather Virtual Environment Detection
+   linux/gather/ecryptfs_creds                                         normal     Gather eCryptfs Metadata
+   linux/gather/enum_configs                                           normal     Linux Gather Configurations
+   linux/gather/enum_network                                           normal     Linux Gather Network Information
+   linux/gather/enum_protections                                       normal     Linux Gather Protection Enumeration
+   linux/gather/enum_psk                                               normal     Linux Gather 802-11-Wireless-Security Credentials
+   linux/gather/enum_system                                            normal     Linux Gather System and User Information
+   linux/gather/enum_users_history                                     normal     Linux Gather User History
+   linux/gather/enum_xchat                                             normal     Linux Gather XChat Enumeration
+   linux/gather/gnome_commander_creds                                  normal     Linux Gather Gnome-Commander Creds
+   linux/gather/gnome_keyring_dump                                     normal     Gnome-Keyring Dump
+   linux/gather/hashdump                                               normal     Linux Gather Dump Password Hashes for Linux Systems
+   linux/gather/mount_cifs_creds                                       normal     Linux Gather Saved mount.cifs/mount.smbfs Credentials
+   linux/gather/openvpn_credentials                                    normal     OpenVPN Gather Credentials
+   linux/gather/pptpd_chap_secrets                                     normal     Linux Gather PPTP VPN chap-secrets Credentials
+   linux/gather/tor_hiddenservices                                     normal     Linux Gather TOR Hidden Services
+   linux/manage/download_exec                                          normal     Linux Manage Download and Execute
+   linux/manage/sshkey_persistence                                     excellent  SSH Key Persistence
+   multi/escalate/aws_create_iam_user                                  normal     Create an AWS IAM User
+   multi/escalate/cups_root_file_read                 2012-11-20       normal     CUPS 1.6.1 Root File Read
+   multi/escalate/metasploit_pcaplog                  2012-07-16       manual     Multi Escalate Metasploit pcap_log Local Privilege Escalation
+   multi/gather/apple_ios_backup                                       normal     Windows Gather Apple iOS MobileSync Backup File Collection
+   multi/gather/aws_ec2_instance_metadata                              normal     Gather AWS EC2 Instance Metadata
+   multi/gather/aws_keys                                               normal     UNIX Gather AWS Keys
+   multi/gather/check_malware                                          normal     Multi Gather Malware Verifier
+   multi/gather/dbvis_enum                                             normal     Multi Gather DbVisualizer Connections Settings
+   multi/gather/dns_bruteforce                                         normal     Multi Gather DNS Forward Lookup Bruteforce
+   multi/gather/dns_reverse_lookup                                     normal     Multi Gather DNS Reverse Lookup Scan
+   multi/gather/dns_srv_lookup                                         normal     Multi Gather DNS Service Record Lookup Scan
+   multi/gather/docker_creds                                           normal     Multi Gather Docker Credentials Collection
+   multi/gather/enum_vbox                                              normal     Multi Gather VirtualBox VM Enumeration
+   multi/gather/env                                                    normal     Multi Gather Generic Operating System Environment Settings
+   multi/gather/fetchmailrc_creds                                      normal     UNIX Gather .fetchmailrc Credentials
+   multi/gather/filezilla_client_cred                                  normal     Multi Gather FileZilla FTP Client Credential Collection
+   multi/gather/find_vmx                                               normal     Multi Gather VMWare VM Identification
+   multi/gather/firefox_creds                                          normal     Multi Gather Firefox Signon Credential Collection
+   multi/gather/gpg_creds                                              normal     Multi Gather GnuPG Credentials Collection
+   multi/gather/irssi_creds                                            normal     Multi Gather IRSSI IRC Password(s)
+   multi/gather/jboss_gather                                           normal     Jboss Credential Collector
+   multi/gather/jenkins_gather                                         normal     Jenkins Credential Collector
+   multi/gather/lastpass_creds                                         normal     LastPass Vault Decryptor
+   multi/gather/maven_creds                                            normal     Multi Gather Maven Credentials Collection
+   multi/gather/multi_command                                          normal     Multi Gather Run Shell Command Resource File
+   multi/gather/netrc_creds                                            normal     UNIX Gather .netrc Credentials
+   multi/gather/pgpass_creds                                           normal     Multi Gather pgpass Credentials
+   multi/gather/pidgin_cred                                            normal     Multi Gather Pidgin Instant Messenger Credential Collection
+   multi/gather/ping_sweep                                             normal     Multi Gather Ping Sweep
+   multi/gather/remmina_creds                                          normal     UNIX Gather Remmina Credentials
+   multi/gather/resolve_hosts                                          normal     Multi Gather Resolve Hosts
+   multi/gather/rsyncd_creds                                           normal     UNIX Gather RSYNC Credentials
+   multi/gather/rubygems_api_key                                       normal     Multi Gather RubyGems API Key
+   multi/gather/run_console_rc_file                                    normal     Multi Gather Run Console Resource File
+   multi/gather/skype_enum                                             normal     Multi Gather Skype User Data Enumeration
+   multi/gather/ssh_creds                                              normal     Multi Gather OpenSSH PKI Credentials Collection
+   multi/gather/thunderbird_creds                                      normal     Multi Gather Mozilla Thunderbird Signon Credential Collection
+   multi/gather/tomcat_gather                                          normal     Gather Tomcat Credentials
+   multi/gather/wlan_geolocate                                         normal     Multiplatform WLAN Enumeration and Geolocation
+   multi/general/close                                                 normal     Multi Generic Operating System Session Close
+   multi/general/execute                                               normal     Multi Generic Operating System Session Command Execution
+   multi/general/wall                                                  normal     Write Messages to Users
+   multi/manage/autoroute                                              normal     Multi Manage Network Route via Meterpreter Session
+   multi/manage/dbvis_add_db_admin                                     normal     Multi Manage DbVisualizer Add Db Admin
+   multi/manage/dbvis_query                                            normal     Multi Manage DbVisualizer Query
+   multi/manage/hsts_eraser                                            normal     Web browsers HSTS entries eraser
+   multi/manage/multi_post                                             normal     Multi Manage Post Module Macro Execution
+   multi/manage/play_youtube                                           normal     Multi Manage YouTube Broadcast
+   multi/manage/record_mic                                             normal     Multi Manage Record Microphone
+   multi/manage/set_wallpaper                                          normal     Multi Manage Set Wallpaper
+   multi/manage/shell_to_meterpreter                                   normal     Shell to Meterpreter Upgrade
+   multi/manage/sudo                                                   normal     Multiple Linux / Unix Post Sudo Upgrade Shell
+   multi/manage/system_session                                         normal     Multi Manage System Remote TCP Shell Session
+   multi/manage/upload_exec                                            normal     Upload and Execute
+   multi/manage/zip                                                    normal     Multi Manage File Compressor
+   multi/recon/local_exploit_suggester                                 normal     Multi Recon Local Exploit Suggester
+   multi/recon/multiport_egress_traffic                                normal     Generate TCP/UDP Outbound Traffic On Multiple Ports
+   osx/admin/say                                                       normal     OS X Text to Speech Utility
+   osx/capture/keylog_recorder                                         normal     OSX Capture Userspace Keylogger
+   osx/capture/screen                                                  normal     OSX Screen Capture
+   osx/gather/autologin_password                                       normal     OSX Gather Autologin Password as Root
+   osx/gather/enum_adium                                               normal     OS X Gather Adium Enumeration
+   osx/gather/enum_airport                                             normal     OS X Gather Airport Wireless Preferences
+   osx/gather/enum_chicken_vnc_profile                                 normal     OS X Gather Chicken of the VNC Profile
+   osx/gather/enum_colloquy                                            normal     OS X Gather Colloquy Enumeration
+   osx/gather/enum_keychain                                            normal     OS X Gather Keychain Enumeration
+   osx/gather/enum_messages                                            normal     OS X Gather Messages
+   osx/gather/enum_osx                                                 normal     OS X Gather Mac OS X System Information Enumeration
+   osx/gather/hashdump                                                 normal     OS X Gather Mac OS X Password Hash Collector
+   osx/gather/password_prompt_spoof                                    normal     OSX Password Prompt Spoof
+   osx/gather/safari_lastsession                                       normal     OSX Gather Safari LastSession.plist
+   osx/manage/mount_share                                              normal     OSX Network Share Mounter
+   osx/manage/record_mic                                               normal     OSX Manage Record Microphone
+   osx/manage/vpn                                                      normal     OSX VPN Manager
+   osx/manage/webcam                                                   normal     OSX Manage Webcam
+   solaris/gather/checkvm                                              normal     Solaris Gather Virtual Environment Detection
+   solaris/gather/enum_packages                                        normal     Solaris Gather Installed Packages
+   solaris/gather/enum_services                                        normal     Solaris Gather Configured Services
+   solaris/gather/hashdump                                             normal     Solaris Gather Dump Password Hashes for Solaris Systems
+   windows/capture/keylog_recorder                                     normal     Windows Capture Keystroke Recorder
+   windows/capture/lockout_keylogger                                   normal     Windows Capture Winlogon Lockout Credential Keylogger
+   windows/escalate/droplnk                                            normal     Windows Escalate SMB Icon LNK Dropper
+   windows/escalate/getsystem                                          normal     Windows Escalate Get System via Administrator
+   windows/escalate/golden_ticket                                      normal     Windows Escalate Golden Ticket
+   windows/escalate/ms10_073_kbdlayout                2010-10-12       normal     Windows Escalate NtUserLoadKeyboardLayoutEx Privilege Escalation
+   windows/escalate/screen_unlock                                      normal     Windows Escalate Locked Desktop Unlocker
+   windows/gather/ad_to_sqlite                                         normal     AD Computer, Group and Recursive User Membership to Local SQLite DB
+   windows/gather/arp_scanner                                          normal     Windows Gather ARP Scanner
+   windows/gather/bitcoin_jacker                                       normal     Windows Gather Bitcoin Wallet
+   windows/gather/bitlocker_fvek                                       normal     Bitlocker Master Key (FVEK) Extraction
+   windows/gather/cachedump                                            normal     Windows Gather Credential Cache Dump
+   windows/gather/checkvm                                              normal     Windows Gather Virtual Environment Detection
+   windows/gather/credentials/avira_password                           normal     Windows Gather Avira Password Extraction
+   windows/gather/credentials/bulletproof_ftp                          normal     Windows Gather BulletProof FTP Client Saved Password Extraction
+   windows/gather/credentials/coreftp                                  normal     Windows Gather CoreFTP Saved Password Extraction
+   windows/gather/credentials/credential_collector                     normal     Windows Gather Credential Collector
+   windows/gather/credentials/domain_hashdump                          normal     Windows Domain Controller Hashdump
+   windows/gather/credentials/dynazip_log             2001-03-27       normal     Windows Gather DynaZIP Saved Password Extraction
+   windows/gather/credentials/dyndns                                   normal     Windows Gather DynDNS Client Password Extractor
+   windows/gather/credentials/enum_cred_store                          normal     Windows Gather Credential Store Enumeration and Decryption Module
+   windows/gather/credentials/enum_laps                                normal     Windows Gather Credentials Local Administrator Password Solution
+   windows/gather/credentials/enum_picasa_pwds                         normal     Windows Gather Google Picasa Password Extractor
+   windows/gather/credentials/epo_sql                                  normal     Windows Gather McAfee ePO 4.6 Config SQL Credentials
+   windows/gather/credentials/filezilla_server                         normal     Windows Gather FileZilla FTP Server Credential Collection
+   windows/gather/credentials/flashfxp                                 normal     Windows Gather FlashFXP Saved Password Extraction
+   windows/gather/credentials/ftpnavigator                             normal     Windows Gather FTP Navigator Saved Password Extraction
+   windows/gather/credentials/ftpx                                     normal     Windows Gather FTP Explorer (FTPX) Credential Extraction
+   windows/gather/credentials/gpp                                      normal     Windows Gather Group Policy Preference Saved Passwords
+   windows/gather/credentials/heidisql                                 normal     Windows Gather HeidiSQL Saved Password Extraction
+   windows/gather/credentials/idm                                      normal     Windows Gather Internet Download Manager (IDM) Password Extractor
+   windows/gather/credentials/imail                                    normal     Windows Gather IPSwitch iMail User Data Enumeration
+   windows/gather/credentials/imvu                                     normal     Windows Gather Credentials IMVU Game Client
+   windows/gather/credentials/mcafee_vse_hashdump                      normal     McAfee Virus Scan Enterprise Password Hashes Dump
+   windows/gather/credentials/mdaemon_cred_collector                   excellent  Windows Gather MDaemonEmailServer Credential Cracking
+   windows/gather/credentials/meebo                                    normal     Windows Gather Meebo Password Extractor
+   windows/gather/credentials/mremote                                  normal     Windows Gather mRemote Saved Password Extraction
+   windows/gather/credentials/mssql_local_hashdump                     normal     Windows Gather Local SQL Server Hash Dump
+   windows/gather/credentials/nimbuzz                                  normal     Windows Gather Nimbuzz Instant Messenger Password Extractor
+   windows/gather/credentials/outlook                                  normal     Windows Gather Microsoft Outlook Saved Password Extraction
+   windows/gather/credentials/razer_synapse                            normal     Windows Gather Razer Synapse Password Extraction
+   windows/gather/credentials/razorsql                                 normal     Windows Gather RazorSQL Credentials
+   windows/gather/credentials/rdc_manager_creds                        normal     Windows Gather Remote Desktop Connection Manager Saved Password Extraction
+   windows/gather/credentials/skype                                    normal     Windows Gather Skype Saved Password Hash Extraction
+   windows/gather/credentials/smartermail                              normal     Windows Gather SmarterMail Password Extraction
+   windows/gather/credentials/smartftp                                 normal     Windows Gather SmartFTP Saved Password Extraction
+   windows/gather/credentials/spark_im                                 normal     Windows Gather Spark IM Password Extraction
+   windows/gather/credentials/sso                                      normal     Windows Single Sign On Credential Collector (Mimikatz)
+   windows/gather/credentials/steam                                    normal     Windows Gather Steam Client Session Collector.
+   windows/gather/credentials/tortoisesvn                              normal     Windows Gather TortoiseSVN Saved Password Extraction
+   windows/gather/credentials/total_commander                          normal     Windows Gather Total Commander Saved Password Extraction
+   windows/gather/credentials/trillian                                 normal     Windows Gather Trillian Password Extractor
+   windows/gather/credentials/vnc                                      normal     Windows Gather VNC Password Extraction
+   windows/gather/credentials/windows_autologin                        normal     Windows Gather AutoLogin User Credential Extractor
+   windows/gather/credentials/winscp                                   normal     Windows Gather WinSCP Saved Password Extraction
+   windows/gather/credentials/wsftp_client                             normal     Windows Gather WS_FTP Saved Password Extraction
+   windows/gather/dnscache_dump                                        normal     Windows Gather DNS Cache
+   windows/gather/dumplinks                                            normal     Windows Gather Dump Recent Files lnk Info
+   windows/gather/enum_ad_bitlocker                                    normal     Windows Gather Active Directory BitLocker Recovery
+   windows/gather/enum_ad_computers                                    normal     Windows Gather Active Directory Computers
+   windows/gather/enum_ad_groups                                       normal     Windows Gather Active Directory Groups
+   windows/gather/enum_ad_managedby_groups                             normal     Windows Gather Active Directory Managed Groups
+   windows/gather/enum_ad_service_principal_names                      normal     Windows Gather Active Directory Service Principal Names
+   windows/gather/enum_ad_to_wordlist                                  normal     Windows Active Directory Wordlist Builder
+   windows/gather/enum_ad_user_comments                                normal     Windows Gather Active Directory User Comments
+   windows/gather/enum_ad_users                                        normal     Windows Gather Active Directory Users
+   windows/gather/enum_applications                                    normal     Windows Gather Installed Application Enumeration
+   windows/gather/enum_artifacts                                       normal     Windows Gather File and Registry Artifacts Enumeration
+   windows/gather/enum_av_excluded                                     normal     Windows Antivirus Exclusions Enumeration
+   windows/gather/enum_chrome                                          normal     Windows Gather Google Chrome User Data Enumeration
+   windows/gather/enum_computers                                       normal     Windows Gather Enumerate Computers
+   windows/gather/enum_db                                              normal     Windows Gather Database Instance Enumeration
+   windows/gather/enum_devices                                         normal     Windows Gather Hardware Enumeration
+   windows/gather/enum_dirperms                                        normal     Windows Gather Directory Permissions Enumeration
+   windows/gather/enum_domain                                          normal     Windows Gather Enumerate Domain
+   windows/gather/enum_domain_group_users                              normal     Windows Gather Enumerate Domain Group
+   windows/gather/enum_domain_tokens                                   normal     Windows Gather Enumerate Domain Tokens
+   windows/gather/enum_domain_users                                    normal     Windows Gather Enumerate Active Domain Users
+   windows/gather/enum_domains                                         normal     Windows Gather Domain Enumeration
+   windows/gather/enum_emet                                            normal     Windows Gather EMET Protected Paths
+   windows/gather/enum_files                                           normal     Windows Gather Generic File Collection
+   windows/gather/enum_hostfile                                        normal     Windows Gather Windows Host File Enumeration
+   windows/gather/enum_ie                                              normal     Windows Gather Internet Explorer User Data Enumeration
+   windows/gather/enum_logged_on_users                                 normal     Windows Gather Logged On User Enumeration (Registry)
+   windows/gather/enum_ms_product_keys                                 normal     Windows Gather Product Key
+   windows/gather/enum_muicache                                        normal     Windows Gather Enum User MUICache
+   windows/gather/enum_patches                                         normal     Windows Gather Applied Patches
+   windows/gather/enum_powershell_env                                  normal     Windows Gather Powershell Environment Setting Enumeration
+   windows/gather/enum_prefetch                                        normal     Windows Gather Prefetch File Information
+   windows/gather/enum_proxy                                           normal     Windows Gather Proxy Setting
+   windows/gather/enum_putty_saved_sessions                            normal     PuTTY Saved Sessions Enumeration Module
+   windows/gather/enum_services                                        normal     Windows Gather Service Info Enumeration
+   windows/gather/enum_shares                                          normal     Windows Gather SMB Share Enumeration via Registry
+   windows/gather/enum_snmp                                            normal     Windows Gather SNMP Settings Enumeration (Registry)
+   windows/gather/enum_termserv                                        normal     Windows Gather Terminal Server Client Connection Information Dumper
+   windows/gather/enum_tokens                                          normal     Windows Gather Enumerate Domain Admin Tokens (Token Hunter)
+   windows/gather/enum_tomcat                                          normal     Windows Gather Apache Tomcat Enumeration
+   windows/gather/enum_trusted_locations                               normal     Windows Gather Microsoft Office Trusted Locations
+   windows/gather/enum_unattend                                        normal     Windows Gather Unattended Answer File Enumeration
+   windows/gather/file_from_raw_ntfs                                   normal     Windows File Gather File from Raw NTFS
+   windows/gather/forensics/browser_history                            normal     Windows Gather Skype, Firefox, and Chrome Artifacts
+   windows/gather/forensics/duqu_check                                 normal     Windows Gather Forensics Duqu Registry Check
+   windows/gather/forensics/enum_drives                                normal     Windows Gather Physical Drives and Logical Volumes
+   windows/gather/forensics/imager                                     normal     Windows Gather Forensic Imaging
+   windows/gather/forensics/nbd_server                                 normal     Windows Gather Local NBD Server
+   windows/gather/forensics/recovery_files                             normal     Windows Gather Deleted Files Enumeration and Recovering
+   windows/gather/hashdump                                             normal     Windows Gather Local User Account Password Hashes (Registry)
+   windows/gather/local_admin_search_enum                              normal     Windows Gather Local Admin Search
+   windows/gather/lsa_secrets                                          normal     Windows Enumerate LSA Secrets
+   windows/gather/make_csv_orgchart                                    normal     Generate CSV Organizational Chart Data Using Manager Information
+   windows/gather/memory_grep                                          normal     Windows Gather Process Memory Grep
+   windows/gather/netlm_downgrade                                      normal     Windows NetLM Downgrade Attack
+   windows/gather/ntds_location                                        normal     Post Windows Gather NTDS.DIT Location
+   windows/gather/outlook                                              normal     Windows Gather Outlook Email Messages
+   windows/gather/phish_windows_credentials                            normal     Windows Gather User Credentials (phishing)
+   windows/gather/resolve_sid                                          normal     Windows Gather Local User Account SID Lookup
+   windows/gather/reverse_lookup                                       normal     Windows Gather IP Range Reverse Lookup
+   windows/gather/screen_spy                                           normal     Windows Gather Screen Spy
+   windows/gather/smart_hashdump                                       normal     Windows Gather Local and Domain Controller Account Password Hashes
+   windows/gather/tcpnetstat                                           normal     Windows Gather TCP Netstat
+   windows/gather/usb_history                                          normal     Windows Gather USB Drive History
+   windows/gather/win_privs                                            normal     Windows Gather Privileges Enumeration
+   windows/gather/wmic_command                                         normal     Windows Gather Run Specified WMIC Command
+   windows/gather/word_unc_injector                                    normal     Windows Gather Microsoft Office Word UNC Path Injector
+   windows/manage/add_user_domain                                      normal     Windows Manage Add User to the Domain and/or to a Domain Group
+   windows/manage/archmigrate                                          normal     Architecture Migrate
+   windows/manage/change_password                                      normal     Windows Manage Change Password
+   windows/manage/clone_proxy_settings                                 normal     Windows Manage Proxy Setting Cloner
+   windows/manage/delete_user                                          normal     Windows Manage Local User Account Deletion
+   windows/manage/download_exec                                        normal     Windows Manage Download and/or Execute
+   windows/manage/driver_loader                                        normal     Windows Manage Driver Loader
+   windows/manage/enable_rdp                                           normal     Windows Manage Enable Remote Desktop
+   windows/manage/enable_support_account                               normal     Windows Manage Trojanize Support Account
+   windows/manage/exec_powershell                                      normal     Windows Powershell Execution Post Module
+   windows/manage/forward_pageant                                      normal     Forward SSH Agent Requests To Remote Pageant
+   windows/manage/hashcarve                                            normal     Windows Local User Account Hash Carver
+   windows/manage/ie_proxypac                                          normal     Windows Manage Proxy PAC File
+   windows/manage/inject_ca                                            normal     Windows Manage Certificate Authority Injection
+   windows/manage/inject_host                                          normal     Windows Manage Hosts File Injection
+   windows/manage/killav                                               normal     Windows Post Kill Antivirus and Hips
+   windows/manage/migrate                                              normal     Windows Manage Process Migration
+   windows/manage/mssql_local_auth_bypass                              normal     Windows Manage Local Microsoft SQL Server Authorization Bypass
+   windows/manage/multi_meterpreter_inject                             normal     Windows Manage Inject in Memory Multiple Payloads
+   windows/manage/nbd_server                                           normal     Windows Manage Local NBD Server for Remote Disks
+   windows/manage/payload_inject                                       normal     Windows Manage Memory Payload Injection Module
+   windows/manage/persistence_exe                                      normal     Windows Manage Persistent EXE Payload Installer
+   windows/manage/portproxy                                            normal     Windows Manage Set Port Forwarding With PortProxy
+   windows/manage/powershell/build_net_code           2012-08-14       excellent  Powershell .NET Compiler
+   windows/manage/powershell/exec_powershell                           normal     Windows Manage PowerShell Download and/or Execute
+   windows/manage/powershell/load_script                               normal     Load Scripts Into PowerShell Session
+   windows/manage/pptp_tunnel                                          normal     Windows Manage Remote Point-to-Point Tunneling Protocol
+   windows/manage/priv_migrate                                         normal     Windows Manage Privilege Based Process Migration 
+   windows/manage/pxeexploit                                           normal     Windows Manage PXE Exploit Server
+   windows/manage/reflective_dll_inject                                normal     Windows Manage Reflective DLL Injection Module
+   windows/manage/remove_ca                                            normal     Windows Manage Certificate Authority Removal
+   windows/manage/remove_host                                          normal     Windows Manage Host File Entry Removal
+   windows/manage/rpcapd_start                                         normal     Windows Manage Remote Packet Capture Service Starter
+   windows/manage/run_as                                               normal     Windows Manage Run Command As User
+   windows/manage/run_as_psh                                           normal     Windows 'Run As' Using Powershell
+   windows/manage/sdel                                                 normal     Windows Manage Safe Delete
+   windows/manage/sticky_keys                                          normal     Sticky Keys Persistance Module
+   windows/manage/vmdk_mount                                           normal     Windows Manage VMDK Mount Drive
+   windows/manage/vss_create                                           normal     Windows Manage Create Shadow Copy
+   windows/manage/vss_list                                             normal     Windows Manage List Shadow Copies
+   windows/manage/vss_mount                                            normal     Windows Manage Mount Shadow Copy
+   windows/manage/vss_set_storage                                      normal     Windows Manage Set Shadow Copy Storage Space
+   windows/manage/vss_storage                                          normal     Windows Manage Get Shadow Copy Storage Info
+   windows/manage/wdigest_caching                                      normal     Windows Post Manage WDigest Credential Caching
+   windows/manage/webcam                                               normal     Windows Manage Webcam
+   windows/recon/computer_browser_discovery                            normal     Windows Recon Computer Browser Discovery
+   windows/recon/outbound_ports                                        normal     Windows Outbound-Filtering Rules
+   windows/recon/resolve_ip                                            normal     Windows Recon Resolve IP
+   windows/wlan/wlan_bss_list                                          normal     Windows Gather Wireless BSS Info
+   windows/wlan/wlan_current_connection                                normal     Windows Gather Wireless Current Connection Info
+   windows/wlan/wlan_disconnect                                        normal     Windows Disconnect Wireless Connection
+   windows/wlan/wlan_profile                                           normal     Windows Gather Wireless Profile
